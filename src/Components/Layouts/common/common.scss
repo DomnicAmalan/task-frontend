@@ -1,0 +1,41 @@
+$color: #202020;
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  :before, :after {
+    margin: 0;
+    padding: 0;
+  }
+  .layout {
+    display: flex;
+    min-height: 5vh;
+    background-color: $color;
+    flex-direction: row;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    align-items: center;
+    .search-container {
+      display: flex;
+      width: 30vw;
+      padding-left: 20vw;
+      .search {
+        width: 40vw;
+        background-color: black;
+        border: 0;
+        height: 4vh;
+        color: white;
+        padding-left: 20px;
+      }
+    }
+    .menus{
+      display: flex;
+      width: 100%;
+      flex-direction: row-reverse;
+    }
+  }
+  .layout-children {
+    display: flex;
+    padding: 30px;
+  }
+}

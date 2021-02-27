@@ -1,0 +1,27 @@
+.videplay-view-container {
+  display: flex;
+  flex-direction: row;
+  .video-play {
+    display: flex;
+    flex-direction: column;
+    min-width: 75vw;
+    .video-view {
+      height: 40vh;
+      width: auto;
+      margin-bottom: 30px;
+      margin-right: 60px;
+      display: flex;
+     
+    }
+    .comments-view {
+      display: flex;
+      overflow: auto;
+      min-height: 55vh;
+      margin-bottom: 40px;
+      margin-right: 60px;
+    }
+  }
+  .video-play-side-view {
+    min-width: 20vw;
+  }
+}
